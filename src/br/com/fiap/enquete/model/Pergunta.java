@@ -5,6 +5,7 @@ public class Pergunta {
 	private long id;
 	private String questao;
 	private String tipo;
+	private String dica;
 
 	private ItemResposta[] itens;
 
@@ -61,6 +62,14 @@ public class Pergunta {
 
 	public void setItens(ItemResposta[] itens) {
 		this.itens = itens;
+	}
+
+	public String getDica() {
+		return dica;
+	}
+
+	public void setDica(String dica) {
+		this.dica = dica;
 	}
 	
 	
